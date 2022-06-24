@@ -1,0 +1,51 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap");
+
+:root {
+    --ifm-color-primary: #ff4c61;
+    --ifm-color-primary-dark: #ff2b44;
+    --ifm-color-primary-darker: #ff1a35;
+    --ifm-color-primary-darkest: #e8001b;
+    --ifm-color-primary-light: #ff6d7e;
+    --ifm-color-primary-lighter: #ff7e8d;
+    --ifm-color-primary-lightest: #ffafb9;
+    --ifm-code-font-size: 95%;
+    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+pre,
+code {
+    font-family: "Fira Mono", monospace;
+}
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+
+[data-theme="dark"] {
+    --ifm-color-primary: #ff4c61;
+    --ifm-color-primary-dark: #ff2b44;
+    --ifm-color-primary-darker: #ff1a35;
+    --ifm-color-primary-darkest: #e8001b;
+    --ifm-color-primary-light: #ff6d7e;
+    --ifm-color-primary-lighter: #ff7e8d;
+    --ifm-color-primary-lightest: #ffafb9;
+    --ifm-background-color: #000;
+    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
