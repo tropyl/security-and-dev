@@ -54,7 +54,7 @@ const config = {
         /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
             navbar: {
-                title: "Seurity & Dev.",
+                title: "Security & Dev.",
                 logo: {
                     alt: "Security & Dev - Logo",
                     src: "img/snd_logo.png",
